@@ -1,54 +1,13 @@
 ---
 title: Hello World
-date: "2019-05-01"
-category: Trip
+date: "2019-09-20"
+category: Daily
 tags: 
-    - helloworld
+    - daily
 cover: ./helloworld.png
 ---
 
 :smile:
 
-First post.
-
-Highlight code block.
-```css
-/* css */
-h1 {
-    padding: 0;
-    margin-bottom: 10px;
-    border: none;
-}
-
-hr {
-    margin: 20px 0 40px 0;
-}
-```
-
-```js
-// javascript
-class BlogIndex extends React.Component {
-    render() {
-        const { data, location, pageContext } = this.props;
-        const { title, pageListSize } = data.site.siteMetadata;
-        const posts = data.allMarkdownRemark.edges;
-
-        return (
-            <Layout location={location} title={title}>
-                <SEO
-                    title="Main"
-                    keywords={[`blog`, `gatsby`, `javascript`, `react`]}
-                />
-                <PostList
-                    data={posts}
-                    page={pageContext}
-                    path={"/"}
-                    pageListSize={pageListSize}
-                />
-            </Layout>
-        );
-    }
-}
-```
-
-![Chinese Salty Egg](./helloworld.png)
+勉強会参加の記録を残すためのBlogを作成しました。
+技術的な話はQiita等で公開していく予定です。

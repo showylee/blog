@@ -1,37 +1,34 @@
 module.exports = {
-    url: "http://demo.nagui.me",
-    title: "Nagui Starter",
-    lang: "ko",
-    description: "Gatsby Starter Nagui",
-    defaultKeywords: [`blog`, `gatsby`, `javascript`, `react`, `kimnagui`],
+    url: "http://demo.shori.me",
+    title: "Shoris Tech Blog",
+    lang: "jp",
+    description: "Shori's Tech Blog",
+    defaultKeywords: [`blog`, `showylee`, `shori`],
     defaultMetaImage: "/defaultmetaimage.png",
 
-    authorNickName: "KimNagui",
-    authorFullName: "KimGwangHyeon",
-    authorDescription: "I Love CaffeLatte",
+    authorNickName: "showylee",
+    authorFullName: "shori",
+    authorDescription: "週一で参加している技術勉強会の記録を主としています",
     photo: "content/assets/profile-pic.png",
 
     // icon : FontAwesome
     category: [
         {
-            id: "Coffee",
-            icon: "fa-coffee"
-        },
-        {
-            id: "Trip",
-            icon: "fa-plane-departure"
+            id: "Daily",
+            icon: "fa-comment-dots"
         }
     ],
 
     social: {
-        email: "calrosban@gmail.com",
-        github: "https://github.com/kimnagui"
+        email: "nagano.shori@gmail.com",
+        github: "https://github.com/showylee",
+        twitter: "https://twitter.com/showylee_7"
     },
 
     postsPerPage: 5,
     pageListSize: 5,
 
     copyright: "© All rights reserved.",
-    googleAnalyticsId: "UA-143311992-2",
-    s3Bucket: "demo.nagui.me"
+    //googleAnalyticsId: "",
+    s3Bucket: "*********"
 };
