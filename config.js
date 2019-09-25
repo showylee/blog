@@ -16,6 +16,10 @@ module.exports = {
         {
             id: "Daily",
             icon: "fa-comment-dots"
+        },
+        {
+            id: "Conference",
+            icon: "fa-comment-dots"
         }
     ],
 
