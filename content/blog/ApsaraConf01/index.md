@@ -4,7 +4,7 @@ date: "2019-09-26"
 category: Conference
 tags: 
     - conference
-cover: ./helloworld.png
+cover: 
 ---
 
 # ApsaraConferenceとは
