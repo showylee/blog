@@ -4,7 +4,7 @@ date: "2019-09-27"
 category: Conference
 tags: 
     - conference
-cover: 
+cover: ./apsara_logo.jpg
 ---
 
 # 概要
